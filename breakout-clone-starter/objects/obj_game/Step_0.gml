@@ -25,3 +25,7 @@ if (instance_exists(obj_ball) && obj_ball.y > room_height + 40) {
         instance_create_layer(room_width/2, room_height/2, "Instances", obj_ball);
     }
 }
+
+if (instance_number(obj_brick) == 10 {
+	
+	obj_ball 
